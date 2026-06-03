@@ -35,6 +35,16 @@ The endpoint is read-only. It does not create leads, reserve slots, send emails,
 }
 ```
 
+## Agentget Install
+
+This repo also includes an installable agent definition for AI coding assistants that support the `agentget` layout.
+
+```sh
+npx agentget add eibrahim/dedicated-mac-mini-ai-bot-setup-mcp --agent dedicated-mac-mini-ai-bot-setup
+```
+
+The agent definition lives at `agents/dedicated-mac-mini-ai-bot-setup.agent.md` and is read-only. It helps a buyer evaluate fit, pick a first workflow, and route to the public offer, demo, audit, or queue without creating fake leads or sending outreach.
+
 ## Pricing
 
 - Setup: `$1,000`
