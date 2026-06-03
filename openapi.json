@@ -1,0 +1,35 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Dedicated Mac Mini AI Bot Setup Offer API",
+    "description": "Read-only public API for Emad Ibrahim's dedicated Mac mini AI operator setup offer.",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://www.emadibrahim.com"
+    }
+  ],
+  "paths": {
+    "/api/bot-setup": {
+      "get": {
+        "summary": "Get current signup capacity",
+        "responses": {
+          "200": {
+            "description": "Current submitted-form count and remaining founder slots"
+          }
+        }
+      }
+    },
+    "/api/bot-setup/offer": {
+      "get": {
+        "summary": "Get the read-only bot setup offer",
+        "responses": {
+          "200": {
+            "description": "Offer, pricing, queue, proof, guardrails, and buyer links"
+          }
+        }
+      }
+    }
+  }
+}

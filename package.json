@@ -1,0 +1,22 @@
+{
+  "name": "dedicated-mac-mini-ai-bot-setup-mcp",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Read-only MCP endpoint metadata for Emad Ibrahim's dedicated Mac mini AI operator setup offer.",
+  "homepage": "https://www.emadibrahim.com/bot-setup/mac-mini-ai-agent-setup?utm_source=github_mcp_repo&utm_medium=repo&utm_campaign=public_mcp_listing",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eibrahim/dedicated-mac-mini-ai-bot-setup-mcp.git"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai-agent",
+    "automation",
+    "mac-mini",
+    "telegram-bot",
+    "discord-bot",
+    "founder-tools"
+  ],
+  "license": "MIT"
+}

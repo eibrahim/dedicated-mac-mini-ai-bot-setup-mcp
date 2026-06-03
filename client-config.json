@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "emad-bot-setup": {
+      "type": "streamable-http",
+      "url": "https://www.emadibrahim.com/mcp"
+    }
+  }
+}
