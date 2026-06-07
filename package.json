@@ -1,6 +1,6 @@
 {
   "name": "dedicated-mac-mini-ai-bot-setup-mcp",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": false,
   "mcpName": "io.github.eibrahim/dedicated-mac-mini-ai-bot-setup",
   "description": "Read-only MCP endpoint metadata for Emad Ibrahim's dedicated Mac mini AI operator setup offer.",

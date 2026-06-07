@@ -3,7 +3,7 @@
   "name": "io.github.eibrahim/dedicated-mac-mini-ai-bot-setup",
   "title": "Dedicated Mac Mini AI Bot Setup",
   "description": "Read-only Mac mini AI operator setup offer with queue, pricing, and buyer-route tools.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "repository": {
     "url": "https://github.com/eibrahim/dedicated-mac-mini-ai-bot-setup-mcp",
     "source": "github"

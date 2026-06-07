@@ -36,7 +36,7 @@ async function fetchJson(url) {
   const response = await fetch(url, {
     headers: {
       accept: "application/json",
-      "user-agent": "dedicated-mac-mini-ai-bot-setup-mcp/1.0.2"
+      "user-agent": "dedicated-mac-mini-ai-bot-setup-mcp/1.0.3"
     }
   });
   if (!response.ok) {
@@ -58,7 +58,7 @@ function jsonContent(payload) {
 
 const server = new McpServer({
   name: "dedicated-mac-mini-ai-bot-setup-mcp",
-  version: "1.0.2"
+  version: "1.0.3"
 });
 
 server.registerTool(

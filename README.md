@@ -71,7 +71,7 @@ node server.mjs
 Run with Docker:
 
 ```sh
-docker run --rm -i ghcr.io/eibrahim/dedicated-mac-mini-ai-bot-setup-mcp:1.0.2
+docker run --rm -i ghcr.io/eibrahim/dedicated-mac-mini-ai-bot-setup-mcp:1.0.3
 ```
 
 Client config example:
@@ -85,7 +85,7 @@ Client config example:
         "run",
         "--rm",
         "-i",
-        "ghcr.io/eibrahim/dedicated-mac-mini-ai-bot-setup-mcp:1.0.2"
+        "ghcr.io/eibrahim/dedicated-mac-mini-ai-bot-setup-mcp:1.0.3"
       ]
     }
   }
