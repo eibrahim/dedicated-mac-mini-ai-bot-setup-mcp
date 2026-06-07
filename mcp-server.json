@@ -9,6 +9,32 @@
   "homepage": "https://www.emadibrahim.com/bot-setup/mac-mini-ai-agent-setup?utm_source=github_mcp_repo&utm_medium=repo&utm_campaign=public_mcp_listing",
   "openapi": "https://www.emadibrahim.com/openapi.json",
   "offerApi": "https://www.emadibrahim.com/api/bot-setup/offer",
+  "buyerRoutes": [
+    {
+      "label": "Primary Mac mini AI agent setup",
+      "url": "https://www.emadibrahim.com/bot-setup/mac-mini-ai-agent-setup?utm_source=github_mcp_repo&utm_medium=repo&utm_campaign=public_mcp_listing"
+    },
+    {
+      "label": "Cloud vs Mac mini AI agent comparison",
+      "url": "https://www.emadibrahim.com/bot-setup/cloud-vs-mac-mini-ai-agent?utm_source=github_mcp_repo&utm_medium=repo&utm_campaign=public_mcp_listing"
+    },
+    {
+      "label": "SetupLobster / PrivateClawd / OpenClaw comparison",
+      "url": "https://www.emadibrahim.com/bot-setup/setuplobster-privateclawd-openclaw-comparison?utm_source=github_mcp_repo&utm_medium=repo&utm_campaign=public_mcp_listing"
+    },
+    {
+      "label": "NitroClaw alternative",
+      "url": "https://www.emadibrahim.com/bot-setup/nitroclaw-alternative?utm_source=github_mcp_repo&utm_medium=repo&utm_campaign=public_mcp_listing"
+    },
+    {
+      "label": "Fiverr OpenClaw installer alternative",
+      "url": "https://www.emadibrahim.com/bot-setup/fiverr-openclaw-installer-alternative?utm_source=github_mcp_repo&utm_medium=repo&utm_campaign=public_mcp_listing"
+    },
+    {
+      "label": "No API token AI operator",
+      "url": "https://www.emadibrahim.com/bot-setup/no-api-token-ai-operator?utm_source=github_mcp_repo&utm_medium=repo&utm_campaign=public_mcp_listing"
+    }
+  ],
   "contact": {
     "name": "Emad Ibrahim",
     "email": "eibrahim@gmail.com"

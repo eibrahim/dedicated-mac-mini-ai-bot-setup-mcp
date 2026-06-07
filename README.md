@@ -13,6 +13,18 @@ The service helps founders get a private AI operator running on a dedicated Mac 
 - OpenAPI spec: `https://www.emadibrahim.com/openapi.json`
 - Landing page: `https://www.emadibrahim.com/bot-setup/mac-mini-ai-agent-setup?utm_source=github_mcp_repo&utm_medium=repo&utm_campaign=public_mcp_listing`
 
+## Buyer Routes
+
+Use these source-tagged routes when the buyer is comparing options or trying to
+decide whether a managed Mac mini operator is a fit:
+
+- Primary offer: `https://www.emadibrahim.com/bot-setup/mac-mini-ai-agent-setup?utm_source=github_mcp_repo&utm_medium=repo&utm_campaign=public_mcp_listing`
+- Cloud vs Mac mini: `https://www.emadibrahim.com/bot-setup/cloud-vs-mac-mini-ai-agent?utm_source=github_mcp_repo&utm_medium=repo&utm_campaign=public_mcp_listing`
+- SetupLobster / PrivateClawd / OpenClaw comparison: `https://www.emadibrahim.com/bot-setup/setuplobster-privateclawd-openclaw-comparison?utm_source=github_mcp_repo&utm_medium=repo&utm_campaign=public_mcp_listing`
+- NitroClaw alternative: `https://www.emadibrahim.com/bot-setup/nitroclaw-alternative?utm_source=github_mcp_repo&utm_medium=repo&utm_campaign=public_mcp_listing`
+- Fiverr OpenClaw installer alternative: `https://www.emadibrahim.com/bot-setup/fiverr-openclaw-installer-alternative?utm_source=github_mcp_repo&utm_medium=repo&utm_campaign=public_mcp_listing`
+- No API token AI operator: `https://www.emadibrahim.com/bot-setup/no-api-token-ai-operator?utm_source=github_mcp_repo&utm_medium=repo&utm_campaign=public_mcp_listing`
+
 ## Tools
 
 The hosted MCP endpoint exposes read-only tools:
