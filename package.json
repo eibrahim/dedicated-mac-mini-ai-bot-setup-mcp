@@ -1,11 +1,15 @@
 {
   "name": "dedicated-mac-mini-ai-bot-setup-mcp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
   "mcpName": "io.github.eibrahim/dedicated-mac-mini-ai-bot-setup",
   "description": "Read-only MCP endpoint metadata for Emad Ibrahim's dedicated Mac mini AI operator setup offer.",
+  "type": "module",
   "scripts": {
     "test": "node tests/validate-metadata.mjs"
+  },
+  "bin": {
+    "dedicated-mac-mini-ai-bot-setup-mcp": "./server.mjs"
   },
   "homepage": "https://www.emadibrahim.com/bot-setup/mac-mini-ai-agent-setup?utm_source=github_mcp_repo&utm_medium=repo&utm_campaign=public_mcp_listing",
   "repository": {
@@ -29,5 +33,8 @@
     "discord-bot",
     "founder-tools"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0"
+  }
 }

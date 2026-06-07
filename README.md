@@ -57,6 +57,41 @@ npx agentget add eibrahim/dedicated-mac-mini-ai-bot-setup-mcp --agent dedicated-
 
 The agent definition lives at `agents/dedicated-mac-mini-ai-bot-setup.agent.md` and is read-only. It helps a buyer evaluate fit, pick a first workflow, and route to the public offer, demo, audit, or queue without creating fake leads or sending outreach.
 
+## Local MCP Package
+
+This repo also ships a small open-source stdio MCP server that mirrors the hosted read-only tools. It fetches the live production offer and queue APIs, but it does not create leads, send emails, reserve slots, or mutate data.
+
+Run with Node after cloning this repo:
+
+```sh
+npm install
+node server.mjs
+```
+
+Run with Docker:
+
+```sh
+docker run --rm -i ghcr.io/eibrahim/dedicated-mac-mini-ai-bot-setup-mcp:1.0.2
+```
+
+Client config example:
+
+```json
+{
+  "mcpServers": {
+    "emad-bot-setup-local": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "ghcr.io/eibrahim/dedicated-mac-mini-ai-bot-setup-mcp:1.0.2"
+      ]
+    }
+  }
+}
+```
+
 ## Pricing
 
 - Setup: `$1,000`
