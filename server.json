@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.eibrahim/dedicated-mac-mini-ai-bot-setup",
+  "title": "Dedicated Mac Mini AI Bot Setup",
+  "description": "Read-only Mac mini AI operator setup offer with queue, pricing, and buyer-route tools.",
+  "version": "1.0.1",
+  "repository": {
+    "url": "https://github.com/eibrahim/dedicated-mac-mini-ai-bot-setup-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://www.emadibrahim.com/bot-setup/mac-mini-ai-agent-setup?utm_source=official_mcp_registry&utm_medium=directory&utm_campaign=mcp_listing",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.emadibrahim.com/mcp"
+    }
+  ]
+}
